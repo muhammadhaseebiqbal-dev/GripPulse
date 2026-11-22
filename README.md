@@ -32,6 +32,17 @@ Unlike static one-size-fits-all tilt scripts, GripPulse combines **pitch-indepen
 
 ## Screenshots
 
+| Screen | What It Shows |
+| :--- | :--- |
+| **Today Dashboard** | Live gyroscopic tilt HUD, active hand & grip status, one-tap live teaching, daily hand balance split, and 24-hour rhythm chart |
+| **Grip Patterns & History** | 7-day history strip, ranked frequency breakdown across all 5 grip postures, and recent hold telemetry log |
+| **Home Screen Widgets** | Live-synced previews and one-tap pinning for the `2×2` Compact Live and `4×2` Daily Insights home screen widgets |
+| **Adaptive Calibration** | On-device adaptive model maturity, 2.2-second multi-axis guided capture, AI pattern study panel, and live raw sensor feed |
+
+<!--
+Once you capture real in-app screenshots into docs/screenshots/ (see below),
+uncomment this block to render them side-by-side on GitHub:
+
 <div align="center">
   <table>
     <tr>
@@ -56,19 +67,12 @@ Unlike static one-size-fits-all tilt scripts, GripPulse combines **pitch-indepen
     </tr>
   </table>
 </div>
+-->
 
-> **Capturing Real In-App Screenshots via ADB**
-> Connect a device or emulator with GripPulse installed and run the included helper script:
+> **Adding Real In-App Screenshots via ADB**
+> Run the helper script with your Android device or emulator connected, then commit `docs/screenshots/*.png` and uncomment the gallery table above:
 > ```bash
 > bash scripts/capture_screenshots.sh
-> ```
-> Or capture each screen manually with ADB:
-> ```bash
-> mkdir -p docs/screenshots
-> adb exec-out screencap -p > docs/screenshots/dashboard.png
-> adb exec-out screencap -p > docs/screenshots/grips.png
-> adb exec-out screencap -p > docs/screenshots/widgets.png
-> adb exec-out screencap -p > docs/screenshots/calibrate.png
 > ```
 
 ---
