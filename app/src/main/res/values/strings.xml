@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GripPulse</string>
+    <string name="widget_compact_label">GripPulse Live Compact</string>
+    <string name="widget_compact_desc">Real-time hand hold split and current grip status</string>
+    <string name="widget_insights_label">GripPulse Daily Insights</string>
+    <string name="widget_insights_desc">Detailed daily hand time, percentages, and top grip type in real time</string>
+    <string name="tracking_channel_name">Grip Telemetry Tracking</string>
+    <string name="tracking_channel_desc">Real-time sensor monitoring for hand hold and grip ergonomics</string>
+    <string name="tracking_notification_title">GripPulse Live Telemetry</string>
+    <string name="tracking_notification_active">Monitoring hand &amp; grip posture in real time</string>
+    <string name="nav_today">Today</string>
+    <string name="nav_grips">Grips</string>
+    <string name="nav_widgets">Widgets</string>
+    <string name="nav_calibrate">Calibrate</string>
+</resources>
