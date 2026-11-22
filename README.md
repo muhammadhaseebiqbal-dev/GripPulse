@@ -35,23 +35,41 @@ Unlike static one-size-fits-all tilt scripts, GripPulse combines **pitch-indepen
 <div align="center">
   <table>
     <tr>
-      <th align="center">Today Dashboard &amp; Live Tilt Gauge</th>
-      <th align="center">Real-Time Home Screen Widgets</th>
-      <th align="center">AI Pattern Learning &amp; Calibration</th>
+      <th align="center">Today Dashboard</th>
+      <th align="center">Grip Patterns &amp; History</th>
+      <th align="center">Home Screen Widgets</th>
+      <th align="center">Adaptive Calibration</th>
     </tr>
     <tr>
       <td align="center">
-        <img src="app/src/main/res/drawable/ss_grippulse_dashboard_1795346916911.jpg" alt="GripPulse Today Dashboard" width="260" />
+        <img src="docs/screenshots/dashboard.png" alt="GripPulse Today Dashboard" width="210" />
       </td>
       <td align="center">
-        <img src="app/src/main/res/drawable/ss_grippulse_widgets_1795346916675.jpg" alt="GripPulse Home Screen Widgets" width="260" />
+        <img src="docs/screenshots/grips.png" alt="GripPulse Grip Patterns" width="210" />
       </td>
       <td align="center">
-        <img src="app/src/main/res/drawable/ss_grippulse_calibrate_1795346915906.jpg" alt="GripPulse AI Learning and Calibration" width="260" />
+        <img src="docs/screenshots/widgets.png" alt="GripPulse Home Screen Widgets" width="210" />
+      </td>
+      <td align="center">
+        <img src="docs/screenshots/calibrate.png" alt="GripPulse Adaptive Calibration" width="210" />
       </td>
     </tr>
   </table>
 </div>
+
+> **Capturing Real In-App Screenshots via ADB**
+> Connect a device or emulator with GripPulse installed and run the included helper script:
+> ```bash
+> bash scripts/capture_screenshots.sh
+> ```
+> Or capture each screen manually with ADB:
+> ```bash
+> mkdir -p docs/screenshots
+> adb exec-out screencap -p > docs/screenshots/dashboard.png
+> adb exec-out screencap -p > docs/screenshots/grips.png
+> adb exec-out screencap -p > docs/screenshots/widgets.png
+> adb exec-out screencap -p > docs/screenshots/calibrate.png
+> ```
 
 ---
 
